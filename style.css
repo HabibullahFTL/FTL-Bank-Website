@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Navbar section  */
+.logo{
+    height: 40px;
+}
+/* Login Section Design  */
+.login-section{
+    padding: 100px 0;
+}
+.login-box,.payment{
+    margin: 10px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 5px #ddd;
+}
+.login-box input[type=text],.payment input[type=text]{
+    margin: 20px 0 20px 0;
+    font-size: 17px;
+}
+.login-box input[type=password]{
+    margin: 20px 0 15px 0;
+    font-size: 17px;
+}
+.login-box input[type=submit]{
+    font-weight: 600;
+    font-size: 17px;
+    padding: 10px 25px;
+}
+
+/* Transaction Area  */
+.status{
+    padding: 30px;
+    color: #fff;
+    border-radius: 10px;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+}
+/* Dashboard Section  */
+.dashboard{
+    display: none;
+}
